@@ -27,7 +27,6 @@ class App extends Component {
       ),
       orgProfiles: profilesJson.records.profiles,
     });
-    console.log(profilesJson.records.profiles);
   }
 
   handlePageClick = (e) => {
