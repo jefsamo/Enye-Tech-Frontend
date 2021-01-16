@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.profile-list {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 250px 250px;
+  row-gap: 30px;
+  column-gap: 30px;
+  margin: 10px auto;
+}
+
+@media screen and (max-width: 800px) {
+  .profile-list {
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 230px 230px 230px 230px;
+    row-gap: 50px;
+    column-gap: 25px;
+  }
+}
