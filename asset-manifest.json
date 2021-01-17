@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/Enye-Tech-Frontend/static/css/main.cf631000.chunk.css",
-    "main.js": "/Enye-Tech-Frontend/static/js/main.b48cd9f1.chunk.js",
-    "main.js.map": "/Enye-Tech-Frontend/static/js/main.b48cd9f1.chunk.js.map",
+    "main.js": "/Enye-Tech-Frontend/static/js/main.460efc01.chunk.js",
+    "main.js.map": "/Enye-Tech-Frontend/static/js/main.460efc01.chunk.js.map",
     "runtime-main.js": "/Enye-Tech-Frontend/static/js/runtime-main.f1e75462.js",
     "runtime-main.js.map": "/Enye-Tech-Frontend/static/js/runtime-main.f1e75462.js.map",
-    "static/js/2.c03bd9cf.chunk.js": "/Enye-Tech-Frontend/static/js/2.c03bd9cf.chunk.js",
-    "static/js/2.c03bd9cf.chunk.js.map": "/Enye-Tech-Frontend/static/js/2.c03bd9cf.chunk.js.map",
+    "static/js/2.ea81d190.chunk.js": "/Enye-Tech-Frontend/static/js/2.ea81d190.chunk.js",
+    "static/js/2.ea81d190.chunk.js.map": "/Enye-Tech-Frontend/static/js/2.ea81d190.chunk.js.map",
     "index.html": "/Enye-Tech-Frontend/index.html",
     "static/css/main.cf631000.chunk.css.map": "/Enye-Tech-Frontend/static/css/main.cf631000.chunk.css.map",
-    "static/js/2.c03bd9cf.chunk.js.LICENSE.txt": "/Enye-Tech-Frontend/static/js/2.c03bd9cf.chunk.js.LICENSE.txt"
+    "static/js/2.ea81d190.chunk.js.LICENSE.txt": "/Enye-Tech-Frontend/static/js/2.ea81d190.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f1e75462.js",
-    "static/js/2.c03bd9cf.chunk.js",
+    "static/js/2.ea81d190.chunk.js",
     "static/css/main.cf631000.chunk.css",
-    "static/js/main.b48cd9f1.chunk.js"
+    "static/js/main.460efc01.chunk.js"
   ]
 }
