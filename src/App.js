@@ -15,6 +15,7 @@ class App extends Component {
     currentPage: 0,
     resultPerPage: 20,
     pageCount: 0,
+    isLoading: true,
   };
 
   async componentDidMount() {
@@ -26,6 +27,7 @@ class App extends Component {
         this.state.resultPerPage
       ),
       orgProfiles: profilesJson.records.profiles,
+      isLoading: false,
     });
   }
 
@@ -92,7 +94,10 @@ class App extends Component {
           handleGender={this.handleGender}
           handlePayment={this.handlePayment}
         />
-        <ProfileCard profiles={filteredProfile} />
+        <ProfileCard
+          profiles={filteredProfile}
+          loading={this.state.isLoading}
+        />
 
         <ReactPaginate
           previousLabel={"prev"}
